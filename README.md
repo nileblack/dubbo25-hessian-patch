@@ -7,7 +7,7 @@
 
 * com.alibaba.dubbo.rpc.filter.ContextFilter
 * com.alibaba.dubbo.rpc.protocol.hessian.HessianProtocol$HessianHandler
-* com.code123.share.skywalking.plugin.dubbo25.Dubbo25HessianProxyInterceptor
+* com.caucho.hessian.client.HessianProxy
 
 ### 如何使用
 > 该修复只在skywalking 8.1.0下测试过
