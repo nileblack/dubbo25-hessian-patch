@@ -9,3 +9,7 @@
 * com.alibaba.dubbo.rpc.protocol.hessian.HessianProtocol$HessianHandler
 * com.code123.share.skywalking.plugin.dubbo25.Dubbo25HessianProxyInterceptor
 
+### 如何使用
+> 该修复只在skywalking 8.1.0下测试过
+
+下载代码，`mvn package` 拷贝`dubbo25-hessian-patch-8.1.0.jar`到 `<SK_AGENT>/plugins/`即可
