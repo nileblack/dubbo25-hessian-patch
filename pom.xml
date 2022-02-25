@@ -27,6 +27,12 @@
             <artifactId>dubbo</artifactId>
             <version>${dubbo.version}</version>
             <scope>provided</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>*</groupId>
+                    <artifactId>*</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>com.caucho</groupId>
